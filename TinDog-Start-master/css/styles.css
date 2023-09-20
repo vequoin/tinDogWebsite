@@ -1,0 +1,254 @@
+/* html selectors */
+
+body
+{
+    font-family: "Montserrat",sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+p
+{
+    color: #424242;
+    font-weight: 400;
+}
+
+/*Sections*/
+
+.colored
+{
+    background-color: #fc2d4c;
+    color: aliceblue;
+}
+
+.aliceblue
+{
+    background-color: aliceblue;
+    color: #0e0e0e;
+}
+
+/* heading */
+
+.bigheading
+{
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* intro */
+
+#title
+{
+    text-align: left;
+}
+
+.container-fluid
+{
+    padding: 3% 8% 8% 10%;
+}
+
+.btn.btn-light
+{
+    font-weight: 500;
+}
+
+/*Navbar*/
+
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+
+
+.nav-item
+{
+    font-size: 1.3rem;
+}
+
+/*Download Buttons*/
+
+.container3
+{
+    margin: 10% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image-div
+{
+    position: relative;
+}
+
+.title-image
+{
+    width: 50%;
+    position:absolute;
+    transform: rotate(23deg);
+    right: 30%;
+}
+
+@media (max-width: 1028px){
+.titlepage-contain
+{
+    text-align: center;
+}
+.title-image
+{
+    width: 45%;
+    position: static;
+    transform: rotate(0deg);
+}
+}
+
+/* Features */
+
+#features
+{
+    padding: 5% 10%;
+    position: relative;
+    z-index: 1;
+}
+
+#features h3
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.icon
+{
+    color: #eb796a;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+    color: #fc2d4c;
+}
+
+.fa-regular
+{
+    color: #e47b60;
+}
+
+
+/* Testimonial */
+
+#testimonials
+{
+    background-color: #e26352;
+}
+
+.testimonial-text
+{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+.testimonials-image
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.price-text
+{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+#press
+{
+    background-color: #e26352;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 5% 10%;
+}
+
+/* Pricing Model */
+
+.pricing-model-heading
+{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+.plan-heading
+{
+    font-size: 1.5rem;
+}
+
+#pricing
+{
+    text-align: center;
+    padding: 7% 10%;
+}
+
+.pricing-card-top
+{
+    background-color: #ccc6c6;
+}
+
+.cardwrap
+{
+    padding: 3% 2%;
+}
+
+/* cta */
+
+#cta
+{
+    padding: 7% 10%;
+}
+
+.cta-h3
+{
+    font-weight: 900;
+    font-size: 2.7rem;
+    padding: 0% 4% 5% 4%;
+    line-height: 1.5;
+}
+
+.simple
+{
+    margin: 0 1%;
+}
+
+/* footer */
+
+#footer{
+    padding: 8% 5% 4% 5%;
+}
+
+.footercontain
+{
+    padding-bottom: .8%;
+}
+
+.footer-icon
+{
+    padding: .8%;
+}
